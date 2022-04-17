@@ -1,0 +1,10 @@
+app:
+  datasource:
+    platform: postgres
+    driverClassName: org.postgresql.Driver
+    jdbc-url: jdbc:postgresql://localhost:5432/springbootpostgresdb
+    username: postgres
+    password: password
+    initialization-mode: always
+    continue-on-error: true
+    pool-size: 30
